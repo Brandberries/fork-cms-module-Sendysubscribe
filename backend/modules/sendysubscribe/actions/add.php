@@ -69,7 +69,8 @@ class BackendSendysubscribeAdd extends BackendBaseActionAdd
 				{
 					$widgetId = BackendSendysubscribeModel::insert(array('label' => $label, 'listID' => $listID));
 					$this->redirect(BackendModel::createURLForAction('index') . '&report=added&highlight=row-' . $widgetId);
-				} else
+				}
+				else
 				{
 					$txtListID->addError(BL::err('ListIDWrong', 'sendysubscribe'));
 

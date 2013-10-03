@@ -37,7 +37,8 @@ class FrontendSendysubscribeModel
 		if($result == "Already subscribed")
 		{
 			return false;
-		} elseif($result == "1")
+		}
+		elseif($result == "1")
 		{
 			return true;
 		}

@@ -25,11 +25,13 @@ class FrontendSendysubscribeAjaxAddToList extends FrontendBaseAJAXAction
 			if(FrontendSendysubscribeModel::addToList($widgetId, $mail, $name))
 			{
 				$this->output(self::OK, null, FL::msg('MailSuccess', 'sendysubscribe'));
-			} else
+			}
+			else
 			{
 				$this->output(self::BAD_REQUEST, null, FL::err('MailDuplicate', 'sendysubscribe'));
 			}
-		} else
+		}
+		else
 		{
 			$this->output(self::BAD_REQUEST, null, FL::err('MailInvalid', 'sendysubscribe'));
 		}

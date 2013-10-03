@@ -33,8 +33,8 @@ class FrontendSendysubscribeWidgetForm extends FrontendBaseWidget
 		$this->frm = new FrontendForm('add');
 		$this->frm->addText('name');
 		$this->frm->addText('email');
-		$this->frm->addHidden('widget_id',$this->data['widget_id']);
-		
+		$this->frm->addHidden('widget_id', $this->data['widget_id']);
+
 	}
 
 	/**

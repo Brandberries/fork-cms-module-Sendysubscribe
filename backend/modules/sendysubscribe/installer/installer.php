@@ -15,7 +15,6 @@ class SendysubscribeInstaller extends ModuleInstaller
 		// load install.sql
 		$this->importSQL(dirname(__FILE__) . '/data/install.sql');
 
-
 		$this->addModule('sendysubscribe', 'The sendy subscribe module');
 
 		// import locale
@@ -23,7 +22,7 @@ class SendysubscribeInstaller extends ModuleInstaller
 
 		// module rights
 		$this->setModuleRights(1, 'sendysubscribe');
-		
+
 		// action rights
 		$this->setActionRights(1, 'sendysubscribe', 'add');
 		$this->setActionRights(1, 'sendysubscribe', 'delete');
@@ -40,4 +39,5 @@ class SendysubscribeInstaller extends ModuleInstaller
 		$navigationModulesId = $this->setNavigation($navigationSettingsId, 'Modules');
 		$this->setNavigation($navigationModulesId, 'Sendysubscribe', 'sendysubscribe/settings');
 	}
+
 }

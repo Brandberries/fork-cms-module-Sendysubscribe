@@ -105,7 +105,8 @@ class BackendSendysubscribeEdit extends BackendBaseActionEdit
 					$id = $this->id;
 					BackendSendysubscribeModel::update(array('label' => $label, 'listId' => $listID, 'widget_id' => $id));
 					$this->redirect(BackendModel::createURLForAction('index') . '&report=edited&highlight=row-' . $id);
-				} else
+				}
+				else
 				{
 					$txtListID->addError(BL::err('ListIDWrong', 'sendysubscribe'));
 				}
