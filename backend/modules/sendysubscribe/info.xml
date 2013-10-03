@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Sendysubscribe</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.5.0</minimum_version>
+	</requirements>
+	<description>
+		<![CDATA[
+			Displays a Sendy subscribe widget
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name><![CDATA[Jonathan Spruytte]]></name>
+		</author>
+	</authors>
+	<events>
+		
+	</events>
+	<cronjobs>
+		
+	</cronjobs>
+</module>

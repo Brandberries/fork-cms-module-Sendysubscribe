@@ -1,0 +1,9 @@
+#error,#confirm{
+	color: red;
+}
+#error{
+	color: red;
+}
+#confirm{
+	color: green;
+}
