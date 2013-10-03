@@ -7,7 +7,7 @@ This module allow to create subscriber widget for the [Sendy](sendy.co "Sendy").
 
 ## Installation
 
-Visit the [Fork CMS knowledge base](http://fork-cms.com/knowledge-base) to learn how to install a module. Just download this repository as a ZIP-file and use it with the installer in your backpanel.
+Visit the [Fork CMS knowledge base](http://fork-cms.com/knowledge-base) to learn how to install a module. The root of this repository contains a ZIP-file which can be directly used with the installer.
 
 ## Settings
 For this widget to work, a couple of settings are required.
