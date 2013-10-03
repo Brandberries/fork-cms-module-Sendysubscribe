@@ -1,6 +1,6 @@
 ##Sendy subscribe module
 
-This module allow to create subscriber widget for the [Sendy](sendy.co "Sendy").
+This module allow to create subscriber widget for the [Sendy](http://sendy.co "Sendy").
 
 
 
