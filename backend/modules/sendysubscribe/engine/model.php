@@ -29,7 +29,7 @@ class BackendSendysubscribeModel
 		$db->delete('sendysubscribe_widgets', 'widget_id = ?', $id);
 
 		// delete extra
-		$db->delete('modules_extras', 'module = :module AND type = :type AND data=:data', array(':module' => 'sendysubscribe', ':type' => 'widget', ':data' => serialize(array('id' => $id))));
+		$db->delete('modules_extras', 'id=?', array($item['extra_id']));
 
 	}
 
